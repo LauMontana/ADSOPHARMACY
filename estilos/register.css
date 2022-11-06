@@ -1,0 +1,267 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+
+.header-container{
+    width: 100%;
+}
+
+.header-secondary-container{
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.company-logo{
+    flex: 1;
+    display: inline;
+    padding-left: 25px;
+    margin-top: auto;
+}
+
+.company-logo img{
+    height: 150px;
+}
+
+
+
+.company-access{
+    flex: 1;
+    display:inline;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.company-access input{
+    position: absolute;
+    left: 40.66%;
+    right: 23.96%;
+    top: 7.96%;
+    bottom: 88.4%;
+    border: 1.5px solid #DAE4ED;
+    border-radius: 4px;
+
+}
+.user{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 80%;
+    top: 9%;
+}
+.car{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 85%;
+    top: 9%;
+
+}
+.menu-wrapper{
+    position: absolute;
+    left: 3.63%;
+    right: 2.68%;
+    top: 16%;
+    bottom: 81.48%;
+    background: #0F084B;
+    border-radius: 2px;
+    text-align: center;
+    justify-content: space-between;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+
+.menu-wrapper nav{
+    margin-top: 5px;
+    padding-top: 5px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-wrapper a{
+    margin: 50px;
+    padding-top: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+}
+
+/* form container register */
+#content-form-rg {
+    width: 90vw;
+    margin-top: 25px;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.registro-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 745px;
+    margin-top: 5px;
+}
+.regiser-form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regiser-form form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;  
+    
+}
+
+.regiser-form h1{
+    font-size: 30px;
+}
+.regiser-form label{
+    margin: 5px;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.regiser-form input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.regiser-form input[type="text"], 
+.regiser-form input[type="email"],
+.regiser-form input[type="password"] {
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    border: 1.5px solid #DAE4ED;
+  }
+.crear-cta {
+    margin-top: 35px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.crear-cta button{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #A7DCC8;
+    border: #66ACB7;
+    border-radius: 4px;
+
+}
+
+.crear-cta button:hover{
+    background-color: #66acb7;
+}
+
+
+/* footer */
+
+.footer-container{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #66ACB7;
+    border-radius: 2px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+
+.main-footer-container{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    box-sizing: border-box;   
+    justify-content: space-between;
+    background-color: #66ACB7;
+    
+
+}
+.info-contacto{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.info-contacto p{
+    font-weight: bold;
+
+}
+.social{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.social p{
+    font-weight: bold;
+}
+
+.clausulas{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.clausulas a{
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+.mrd-pgo{
+    width: 60px;
+}
+
+.menu-wrapper-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.menu-wrapper-footer p{
+    text-decoration: none;
+    color: #0d0221;
+    line-height: 1.5;
+    font-weight: bolder;
+
+}
+.menu-wrapper-footer a{
+    text-decoration: none;
+    color: #0d0221;
+    line-height: 1.5;
+
+}
+
+#copyright {
+    text-align: center;
+    font-weight: bolder;
+}

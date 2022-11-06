@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>ADSO Pharmacy</title>
+    <link rel="stylesheet" type="text/css" href="./estilos/login.css" />
+</head>
+
+<body>
+    <!-- Header de la pagina -->
+
+    <header>
+        <!-- aqui inicia el contenedor del header de la pagina -->
+        <div class="header-container">
+
+            <!-- Primer div que contiene el logo -->
+            <div class="header-secondary-container">
+                <div class="company-logo">
+                    <img src="./media/logo.JPG" alt="logo_adso_pharmacy" />
+                    </a>
+                </div>
+
+                <!-- El segundo div , contiene el search bar y los botones de user y carrito de compras -->
+                <div class="company-access">
+                    <input type="text" placeholder="Search..">
+                    <a href="./login.html" class="user">
+                        <i class='bx bxs-user'></i>
+                    </a>
+                    <a to="/shopping_car" class="car">
+                        <i class='bx bx-cart'></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- El tercer div contiene el menu de la pagina -->
+            <div class="navbar">
+                <nav class="menu-wrapper">
+                    <a href="./index.html"> Home </a>
+                    <a href="#"> Medicamentos </a>
+                    <a href="#"> Suplementos </a>
+                    <a href="#"> Suministros medicos </a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="inicio-sesion">
+        <div class="primer-contair-is">
+            <img src="./media/medicalcare.png" />
+
+        </div>
+
+        <div class="login-form">
+            <form>
+                <h1>Inicio de sesión </h1>
+                </br>
+                <p>Por favor ingrese su email y contraseña: </p>
+
+                <!-- USERNAME INPUT -->
+                <label>Email: </label>
+                <input type="email" placeholder="Email" name="email" />
+
+                <!-- PASSWORD INPUT -->
+                <label>Contraseña: </label>
+                <input type="password" placeholder="Contraseña" name="password" />
+                </br>
+                <div class="btn-iniciar">
+                    <button>Iniciar Sesión</button>
+
+                </div>
+                <a href="#">Olvido su usuario y/o contraseña?</a>
+
+                <div class="btn-register">
+                    <p>En caso de no tener cuenta, por favor registrese: </p>
+                    </br>
+                    </br>
+                    <button>
+                        <a href="/register.html">Registrarse</a></button>
+
+                </div>
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!-- aqui inicis el contenido del footer -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="main-footer-container">
+
+                <!-- Este container se divide en tres partes, Informacion legal, social y politicas. -->
+                <div class="info-contacto">
+                    <p>Informacion legal: </p>
+                    <p><i class='bx bxs-planet'></i> www.ADSOPharmacy.com</p>
+                    <p><i class='bx bxs-phone'></i> 311 866 7499</p>
+                    <p><i class='bx bxs-map'></i> Cra 98# 54 b 29 - Bogotá D.C</p>
+                    <p><i class='bx bxs-store'></i> Horario de lunes a viernes de 8:00am a 8:00pm</p>
+                </div>
+
+                <div class="social">
+                    <div class="metodo-pago">
+                        <p>Metodos de pago</p>
+                        <i class='bx bxl-visa'></i>
+                        <i class='bx bxl-mastercard'></i>
+                        <img class="mrd-pgo" src="./media/logo-mercado-pago.png" alt="Mercado-pago" />
+                    </div>
+
+                    <div class="redes-sociales">
+                        <p>Redes sociales:</p>
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-whatsapp-square'></i>
+                    </div>
+
+                    <div class="newsletter" />
+                    <p>Suscribase a news letter: </p>
+                    <input type="text" placeholder="Suscribirse..">
+                    <i class='bx bxs-send'></i>
+                </div>
+
+            </div>
+
+            <div class="clausulas">
+                <nav class="menu-wrapper-footer">
+                    <p>Politicas: </p>
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Tratamiento de datos</a>
+                    <a href="#">PQR</a>
+
+                </nav>
+            </div>
+
+        </div>
+
+
+        <div id="copyright">
+            &copy Copyright - ADSO PHARMACY - Todos los derechos reservados.
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

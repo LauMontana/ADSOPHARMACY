@@ -1,0 +1,151 @@
+/* footer */
+#footer-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66ACB7
+}
+
+    .footer-container{
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        background: #66ACB7;
+        border-radius: 2px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    
+    }
+    
+    .main-footer-container{
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center; 
+        flex-wrap: wrap;
+        box-sizing: border-box;   
+        justify-content: space-between;
+        background-color: #66ACB7;
+        
+    
+    }
+    .info-contacto{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    
+    .info-contacto p{
+        font-weight: bold;
+    
+    }
+    .social{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    
+    .social p{
+        font-weight: bold;
+    }
+    
+    .clausulas{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .clausulas a{
+        line-height: 1.5;
+        font-weight: bold;
+    
+    }
+    .mrd-pgo{
+        width: 60px;
+    }
+    
+    .menu-wrapper-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .menu-wrapper-footer p{
+        text-decoration: none;
+        color: #0d0221;
+        line-height: 1.5;
+        font-weight: bolder;
+    
+    }
+    .menu-wrapper-footer a{
+        text-decoration: none;
+        color: #0d0221;
+        line-height: 1.5;
+    
+    }
+    
+    #copyright {
+        text-align: center;
+        font-weight: bolder;
+    }
+
+
+#footer-container  .footer-main-wapper {
+    width: 90%;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.primer-f-sub-container{
+    flex: 1;
+
+
+}
+.segundo-f-sub-container{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.segundo-f-sub-container img{
+    width: 40px;
+}
+
+.bxl-visa .bxl-mastercard{
+    width: 40px;
+
+}
+.tercer-f-sub-container{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+.menu-wrapper-footer{
+    display: flex;
+    flex-direction: column;
+}
+.menu-wrapper-footer a {
+    text-decoration: none;
+
+}
